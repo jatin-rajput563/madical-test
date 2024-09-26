@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./output.css);
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.sec-bg-1 {
+    background-image: url(./images/section-bg-1.png);
+}
+
+.arrow-svg path:hover {
+    fill: #FC724D;
+}
